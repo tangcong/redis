@@ -4904,6 +4904,11 @@ socket_err:
     return;
 }
 
+void migrateAsyncCommand(client *c) {
+
+
+}
+
 /* -----------------------------------------------------------------------------
  * Cluster functions related to serving / redirecting clients
  * -------------------------------------------------------------------------- */

@@ -1616,6 +1616,7 @@ void unwatchCommand(client *c);
 void clusterCommand(client *c);
 void restoreCommand(client *c);
 void migrateCommand(client *c);
+void migrateAsyncCommand(client *c);
 void askingCommand(client *c);
 void readonlyCommand(client *c);
 void readwriteCommand(client *c);
